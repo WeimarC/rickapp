@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/PieDePagina.module.css";
 
 const PieDePagina = () => {
   return (
@@ -29,10 +30,10 @@ const PieDePagina = () => {
         </li>
       </ul>
       <ul>
-          <a href="">DEPLOYS BY netlify</a>
+        <a href="">DEPLOYS BY netlify</a>
       </ul>
-        <ul>
-          <a href="">Axel Fuhrmann</a>
+      <ul>
+        <a href="">Axel Fuhrmann</a>
       </ul>
     </footer>
   );
