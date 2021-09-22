@@ -20,13 +20,13 @@ const PieDePagina = () => {
       </ul>
       <ul>
         <li>
-          <a href="">Git-Hub</a>
+          <a href=""> <img src="" alt="Git-Hub" /></a>
         </li>
         <li>
-          <a href="">Twitter</a>
+          <a href=""><img src="" alt="Twitter" /></a>
         </li>
         <li>
-          <a href="">Help Us</a>
+          <a href=""><img src="" alt="Help-Us" /></a>
         </li>
       </ul>
       <ul>

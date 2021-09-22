@@ -1,6 +1,19 @@
 import React from "react";
 import "../styles/Encabezado.module.css";
 
+const textosDeEnlaces = ["Docs", "About", "help us"]
+const transformarTexto = (texto) => {
+  return(
+    <li>
+      <a className="enlacesEncabezado" href="/">
+        {texto}
+      </a>
+    </li>
+  );
+};
+
+const enlaces = textosDeEnlaces.map(transformarTexto);
+
 const Encabezado = () => {
   return (
     <header>
@@ -10,41 +23,7 @@ const Encabezado = () => {
         </svg>
       </a>
       <nav>
-        <ul className="NavegacionEncabezado">
-          <li>
-            <a
-              style={{
-                textDecoration: "none",
-                color: "black",
-              }}
-              href=""
-            >
-              Docs
-            </a>
-          </li>
-          <li>
-            <a
-              style={{
-                textDecoration: "none",
-                color: "black",
-              }}
-              href=""
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              style={{
-                textDecoration: "none",
-                color: "black",
-              }}
-              href=""
-            >
-              HELP US
-            </a>
-          </li>
-        </ul>
+        <ul>{enlaces}</ul>
       </nav>
     </header>
   );

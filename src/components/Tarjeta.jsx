@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Tarjeta.module.css";
 
+
+
 const Tarjeta = () => {
   return (
     <div className="Tarjeta">
